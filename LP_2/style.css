@@ -1,0 +1,72 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}html,body{
+   height: 100%;
+   width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.49);
+    padding: 10px 40px;
+}
+.logo{
+    background-image: url(./assets/white-logo.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 9999;
+}
+.service>a{
+    font-family: Gilroy;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.button>button{
+    background-color: rgba(179, 75, 172, 0.733);
+    padding: 6px 13px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.page-content{
+    width: 480px;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+.big-text-content>p{
+    font-family: Gilroy;
+    font-size: 50px;
+    color: #fff;
+}
+.page-content>p{
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.page-content>button{
+    margin-top: 20px;
+    background-color: rgba(204, 75, 215, 0.794);
+    color: #fff;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
